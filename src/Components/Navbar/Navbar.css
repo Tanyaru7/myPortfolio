@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+.home {
+	color: #2db2ff;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+.nav-list__link {
+	color: #fff;
+	transition: opacity 0.2s ease-in;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	margin-right: 20px;
+}
+
+.nav-list__link:hover {
+	opacity: 0.8;
+	box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff,
+		0 0 60px #2db2ff;
+}
+
+@media (min-width: 768px) {
+	.navbar {
+		height: 60px;
+	}
+}

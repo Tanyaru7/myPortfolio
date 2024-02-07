@@ -1,0 +1,36 @@
+.container {
+	position: relative;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.btnPrev,
+.btnNext {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0);
+	color: #fff;
+	border: none;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.btnPrev:hover,
+.btnNext:hover {
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.btnPrev {
+	left: 10px;
+}
+
+.btnNext {
+	right: 5px;
+}
+
+@media all and (max-width: 500px) {
+	img {
+		max-height: 250px;
+	}
+}
