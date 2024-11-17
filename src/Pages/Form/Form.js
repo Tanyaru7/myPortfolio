@@ -25,11 +25,11 @@ function ContactForm() {
 						<br />
 						<p>
 							<img alt='CallIcon' width='20px' src={iconCall} />
-							Call 0990090000990
+							Call +4917684180593
 						</p>
 						<p>
 							<img alt='EmailIcon' width='20px' src={iconEmail} />
-							Tanya.ru7@gmail.com
+							pasichnyktetiana.de@gmail.com
 						</p>
 					</div>
 				</div>
