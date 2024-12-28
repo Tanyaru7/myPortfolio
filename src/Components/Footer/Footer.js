@@ -7,7 +7,7 @@ const MyFooter = () => {
 			<div className='container'>
 				<div className='footer__container'>
 					<div className='copyright'>
-						<p>© 2024 Tetiana Pasichnyk</p>
+						<p>© 2025 Tetiana Pasichnyk</p>
 					</div>
 					<ul className='social'>
 						<li className='social__item'>
